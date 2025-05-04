@@ -26,10 +26,12 @@ const keyListener = (event) => {
             break;
 
         default:
-            alert(event.key);
+            // alert(event.key);
             break;
     }
 }
 
 video.addEventListener('keyup', keyListener);
 document.body.addEventListener('keyup', keyListener);
+
+video.play();
